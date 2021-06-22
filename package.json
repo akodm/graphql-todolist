@@ -5,24 +5,32 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "server": "nodemon"
   },
   "dependencies": {
+    "@apollo/client": "^3.3.20",
     "@types/react": "^17.0.11",
     "@types/react-dom": "^17.0.8",
     "apollo-server-micro": "^2.25.1",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
     "graphql": "^15.5.0",
     "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
     "next": "11.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "sequelize": "^6.6.2",
     "styled-components": "^5.3.0"
   },
   "devDependencies": {
+    "@types/sequelize": "^4.28.9",
     "@types/styled-components": "^5.1.10",
     "autoprefixer": "^9",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "ts-node": "^10.0.0",
     "typescript": "^4.3.4"
   }
 }
