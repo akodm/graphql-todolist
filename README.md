@@ -24,3 +24,13 @@ This is TodoList Project. project bootstrapped with [`create-next-app`](https://
 ...
 ...
 ```
+
+```bash
+yarn
+touch .env
+
+yarn dev
+or
+yarn build
+yarn start # .env port change 3333 -> 3000 ( build default port )
+```
